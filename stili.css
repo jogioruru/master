@@ -201,7 +201,7 @@ section{
     align-items: center;
     color: black;
 }
-img > #VitaGiulio {
+#VitaGiulio > img {
     color: black;
 }
 a {

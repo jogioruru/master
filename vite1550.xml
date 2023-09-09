@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <fileDesc>
+        <titleStmt>
+            <title>Le Vite de' più eccellenti pittori, architetti e scultori italiani, da Cimabue sino a' tempi nostri
+            </title>
+            <author viaf="https://viaf.org/viaf/46768219/#Vasari,_Giorgio,_1511-1574.">Vasari, Giorgio (1511-1574)</author>
+            <respStmt>
+                <resp>editore originale</resp>
+                <name xml:id="TO">Torrentino</name>    
+            </respStmt>
+            <respStmt>
+            <resp>editore digitale</resp>
+            <name xml:id="MF">Memofonte</name>    
+        </respStmt>
+    </titleStmt>
+    <publicationStmt>
+    <p>File integrato al progetto di esame Digital Humanities del 19/07/2023</p>
+    </publicationStmt>
+    <sourceDesc>
+    <p>Passo del testo di Vasari inerente alla figura di Giulio Romano proveniente dalla pubblicazione PDF di Memofonte.</p>
+    </sourceDesc>
+    </fileDesc>
+</teiHeader>
+<text>
+    <body>
+        <div type="sectionGiulioRomano">
+            <head type="sectionMainTitle">GIULIO ROMANO</head>
+            <head type="sectionSubTitle">Pittore et Architetto</head>
+            <p xml:lang="it">Quando fra il più degli uomini si veggono spiriti ingegnosi che siano affabili e giocondi con
+        bella gravità in tutta la conversazione loro, e che stupendi e mirabili siano nell’arti che 
+        procedono da l’intelletto, si può veramente dire che siano grazie ch’a pochi il Ciel largo 
+        destina, e possono costoro sopra gli altri andare altieri per la felicità delle parti di che 
+        io ragiono; perciò che tanto può la cortesia de’ servigi negli uomini, quanto nelle opere la 
+        dottrina delle arti loro. Di queste parti fu talmente dotato dalla natura <name type="person">Giulio Romano</name>, che 
+        veramente si poté chiamare erede del graziosissimo <name type="person">Raffaello</name>, sì ne’ costumi quanto nella bellezza 
+        delle figure nell’arte della pittura: come dimostrano ancora le maravigliose fabbriche fatte da 
+        lui e per <name type="city">Roma</name> e per <name type="city">Mantova</name>, le quali non abitazioni di uomini, 
+        ma case degli Dei per esempio fatte degli uomini ci appariscono. Né tacer voglio la invenzione della storia di costui, nella 
+        quale ha mostro d’essere stato raro e che nessuno l’abbia paragonato: e ben posso io sicuramente dire che in questo volume non sia egli 
+        secondo a nessuno. Veggonsi i miracoli ne’ colori da lui operati, la vaghezza dei quali spira una grazia ferma di bontà e carca di sapienzia 
+        ne’ suoi scuri e lumi, che talora alienati e vivi si mostrano; né con più grazia mai geometra toccò compasso 
+        di lui. Talché se <name type="person">Apelle</name> e <name type="person">Vitruvio</name> fossero vivi nel cospetto 
+        degli artefici, si terrebbono vinti dalla maniera di lui, che fu sempre anticamente moderna e modernamente antica. Per il che ben doveva 
+        <name type="city">Mantova</name> piagnere, quando la morte gli chiuse gli occhi, i quali furono sempre vaghi di beneficarla, salvandola da le 
+        inondazioni dell’acque e magnificandola nei tanti edifizî, che non più <name type="city">Mantova</name>, ma nuova <name type="city">Roma</name> 
+        si può dire, bontà dello spirito e del valore dello ingegno suo maraviglioso. Il quale di modi nuovi che abbino quella forma, che leggiadramente
+        si conoschino nella bellezza degli artefici nostri, più d’ogni altro valse per arte e per natura. </p>
+        <p>Fu <name type="person">Giulio Romano</name>
+        di[s]cepolo del grazioso <name type="person"> Raffaello</name> da <name type="city">Urbino</name>, e per la natura di lui mirabile et ingegnosa meritò più degli altri essere
+        amato da <name type="person">Raffaello</name>, che ne tenne gran conto come quello che di disegno, d’invenzione e di colorito tutti i suoi discepoli 
+        avanzò di gran lunga. E ben lo mostrò <name type="person">Raffaello</name>, mentre che visse, nel farlo di continuo lavorare su tutte le più importanti
+        cose che egli dipignesse, nelle quali, come curioso e desideroso d’imitare il suo maestro, attese molto alle cose d’architettura; e per lo 
+        diletto che in tal cosa sempre pigliò, fece di nuove, capricciose e belle fantasie: come si vede ancora alla <description type="work of art">vigna del <rs type="person">Papa</rs>,
+        vicino a <name type="place">Monte Mario</name>, nella quale è un componimento leggiadrissimo nella entrata, e di stravaganzia nelle facce 
+        di fuora e nel cortile di dentro il medesimo si vede</description>. La quale opera, e per le fontane che rustiche fece lavorare, e per quelle che 
+        domestiche ci sono, e per ogni ornamento fattovi, è la più bella che sia fuor di <name type="city">Roma</name> per ispasso di vigne e per grandezza 
+        e bellezza di luogo: per essere in quella una fonte lavorata di <description type="technique"> musaico alla rustica di gongole, telline et altre cose maritime </description>per le mani del 
+        mirabile <name type="person">Giovanni da Udine</name>, che, per essere stata da lui investigata dallo antico, è la prima ne’ moderni 
+        ch’à dato lume di far quelle che sì belle in <name type="city">Roma  e sparse per Italia sono sì maravigliose di varietà e d’ornamento. E per mano del medesimo 
+        sono ancora gli stucchi che in tal vigna nelle belle logge fece, e le grottesche che vi si veggono dipinte, delle quali egli il primo di tale 
+        arte fra’ moderni fu capo, e più di tutti divino è stato tenuto. Come si veggono ancora di man d’esso gli animali che in questa opera fece, i 
+        quali nessuno con più pratica e con più vivezza ha mai lavorato. Fece in tal fabbrica <name type="person">Giulio</name>, oltra infiniti disegni, 
+        in una testa di quelle logge, un <name type="person">Polifemo</name> grandissimo, con infinito numero di fanciulli satiri 
+        che gli giuocano intorno; il quale è stato tenuto cosa molto lodevole.</p> 
+        <p>Avvenne che nella morte di <name type="person">Raffaello</name>,  <name type="person">Giovan Francesco Fiorentino</name> e <name type="person">Giulio Romano</name> 
+        rimasero insieme eredi delle sue cose; per che 
+        diedero fine in compagnia a infinite opere, le quale Raffaello aveva lasciato loro insieme col credito, e particularmente la sala di palazzo, 
+        dove sono i fatti di <name type="person">Gostantino</name>. Della quale opera tutta <name>Giulio</name> fece i cartoni; et una parete,
+        dove <name type="person">Gostantino</name> ragionava a’ soldati, ordinarono di mistura per farla in muro a olio: e poi non riuscendo, si 
+        deliberarono di gettarla per terra e dipignerla in fresco; e fu tosto finita, essendosi quella già cominciata da <name type="person">Raffaello</name> 
+        nel tempo di <name type="person">Leone X</name>, la quale per la morte di esso e poi di papa [885] <name type="person">Adriano</name>, che non 
+        curò di farla finire, fu prolungata fino ai primi anni di <name type="person">Clemente VII</name>. È questa opera molto bella d’invenzione, 
+        et ha dimolte parti perfettissimamente condotte. E così fecero insieme <name type="person">Giovan Francesco</name> e <name type="person">Giulio</name> 
+        per <name type="city">Perugia</name> la tavola di <name type="place">Monte Luci</name>, et un quadro di 
+        <name type="religious">Nostra Donna</name>, nel quale <name>Giulio</name> fece una gatta, e fu per questo detto il quadro
+        della Gatta, che fu molto lodato. Era in quel tempo <name type="person">Giovan Matteo Genovese</name> datario del <name type="person">Papa</name> 
+        e vescovo di <name type="city">Verona</name>, il quale a’ servigi di <name type="person">Clemente</name> con grandissimi favori tenne 
+        <name>Giulio</name> in altezza; per che in palazzo gli ordinò alcune stanze murate vicino alla porta, e gli fece lavorare una tavola 
+        della Lapidazione di Santo Stefano per <name type="church">Santo Stefano</name> di <name type="city">Genova</name>, suo beneficio; la quale 
+        è di bellezza e di singular grazia e di componimento sì ben condotta, che è la migliore opera di quante e’ facesse già mai, attesoché vi sono 
+        pezzi d’ignudi bellissimi, e quella gloria, dove <name type="person">Cristo</name> siede alla destra del <rs type="person">Padre</rs>, 
+        è cosa veramente celeste e non dipinta; della quale <name type="person">Giovan Matteo</name> fece degni i frati di <name type="place">Monte Oliveto</name>, 
+        donandogli quel luogo dove oggi dimorano per monistero loro. </p>
+        <p>Fece ancora a <name type="person">Iacopo Fuccheri</name> tedesco in <name type="person">Roma</name>, 
+        nella <name type="church">chiesa di Santa Maria d’Anima</name>, una tavola alla cappella loro, ch’è molto lodata, e massimamente un 
+        casamento girato in tondo, che certo è cosa divina; similmente a’ piè d’un <name type="person">San Marco</name> un leone, i peli del 
+        quale torcono secondo che egli gira: cosa veramente difficile, e le ali di quello più di piume e di penne che di colori contraffatte. Aveva 
+        <name type="person">Giulio</name> a’ servigi suoi in <name>Roma</name> <name type="person">Giovanni dal Leone</name> e 
+        <name type="person">Raffaello dal Colle</name> <name type="place">dal Borgo a San Sepolcro</name>, i quali erano molto dèstri nel mettere in opera 
+        le cose ch’egli disegnava. Per il che gli fece condur vicino alla Zecca [886] un’arme, assegnandone la metà per ciascuno, situata allato a 
+        <name type="place">Santa Maria</name>, chiesina vicino alla Zecca vecchia in Banchi, nella quale sono due figure che reggono l’ornamento 
+        col capo. E nella sala grande ch’e’ fece, essi una gran parte colorirono e condussero di quelle cose che vi sono. Fece poi <name type="person">Giulio</name> 
+        a <name type="person">Raffael Borghese</name> solo condurre, sopra la porta di dentro del <rs type="person">cardinale della Valle</rs>, una 
+        <name type="person">Nostra Donna</name>, la quale cuopre un fanciullo che dorme, e <name type="person">Santo Andrea</name> e <name type="person">San Niccolò,</name> 
+        che maravigliosissimamente furono lodati. </p>
+        <p>Diede in questo medesimo tempo il disegno della vigna e palazzo di messer <name type="person">Baldassarre da Pescia,</name>
+        e dentro a quello fece condurre di pittura e di stucchi la sala e la stufa, e lavorare una loggia di stucchi bianchi: la quale opera è certo tanto 
+        bella, varia et aggraziata, che miracolo e stupore è a vederla. Si divise in questo tempo <name type="person">Giulio</name> da <name type="person">Giovan Francesco,</name>
+        come quello che voleva l’opere proprie condurre a modo suo. Fece per <name>Roma</name> diverse cose d’architettura a diverse persone, 
+        come il disegno della casa degli <name type="person">Alberini in Banchi</name>, il quale disegnò <name type="person">Giulio</name> per ordine di 
+        <name type="person">Raffaello</name>; e così quello del palazzo che si vede su la <name type="place">piazza della Dogana,</name> che nel vero è cosa 
+        bellissima. Ordinò su un canto al <name type="place">Macello de’ Corbi</name> la casa sua, la quale ha bel principio e vario, ancora che sia poca. 
+        Era questo ingegno tanto celebrato di nome e di grado, che la sua fama e dolcezza di natura fu cagione che, sendo per suoi bisogni capitato a 
+        <name type="city">Roma </name> <name type="person">Federigo Gonzaga</name> primo duca di <name type="city">Mantova,</name> amicissimo 
+        di messer <name type="person">Pietro Aretino,</name> et egli domestico di <name>Giulio,</name> tanta grazia lo raccolse, per essere 
+        amatore delle virtù, che non cessò di accarezzarlo, sì che lo condusse in <name>Mantova</name> a’ suoi servigi. Quivi dimorando, non 
+        dopo molto tempo diede principio alla fabbrica et al bel <name type="place">palazzo [887] del T</name> fuor della <name type="place">porta di San Sebastiano;</name> 
+        la quale opera, per non esservi pietre vive, fece di mattoni e di pietre cotte lavorate, con colonne, base, capitegli, cornici, porte e finestre, 
+        con bellissime proporzioni e stravagante maniera di adornamenti di volt’ e spartimenti, con ricetti, sale, camere et anticamere divinissime: 
+        le quali non abitazioni di <name type="city">Mantova</name>, ma di <name type="city">Roma</name> paiono, con bellissima forma di grandezza. E fece 
+        dentro a questo edifizio, in luogo di piazza, un cortile scoperto, nel quale sboccano in croce quattro entrate. La principale delle quali 
+        trafora e passa in una grandissima loggia e sbocca nel giardino; l’altre due vanno a diversi appartamenti, che son quattro: due dei quali 
+        ha fatto ornati di stucchi e di pitture, et in una sala di quelli tutti i bellissimi cavalli turchi e barbari del <rs type="person">Duca</rs>,
+        et appresso quello i cani favoriti, che sono naturali e bellissimi; con le volte di diversi spartimenti, e questi dipinti per le facce da basso. 
+        Arrivasi poi in una stanza, ch’è sul canto del palazzo, nella quale sono nella volta le storie di <name type="person">Psiche,</name> veramente 
+        bellissime, e nel mez[z]o alcuni Dei che scortano al disotto in su, che di rilievo e non dipinti paiono, la forza dei quali buca la volta con 
+        la bellezza de’ contorni e con lo essere di colori con dottissima arte dipinti. Nelle facciate attorno fece varie istorie, tutte divinissime 
+        e belle, et una Baccanaria per un Sileno, che maraviglia è credere che si possa far meglio negli strani fauni, satiri, tigri; et una credenza di 
+        festoni pieni d’argenti, che i lustri degli ori e degli argenti mostra vivissimi in varie fogge di lavori stranamente fatti dagli orefici: 
+        le quali capricciose invenzioni dottamente, con senso poetico e pittoresco, ha garbatissimamente finite. Si passa poi in una camera dove sono 
+        fregi di figure di basso rilievo di stucchi, con tut[888]to l’ordine de’ soldati che sono nella colonna di Traiano, lavorati con bella maniera. 
+        Vedevisi ancora in un palco d’una anticamera, lavorato a olio, quando <name type="person">Icaro</name> volando, da <name type="person">Dedalo</name> 
+        suo padre ammaestrato, per gloria del troppo alzarsi, il <name type="personification">Sole</name> gli strugge la cera et abbrucia l’ale: per il 
+        che precipitando in mare, si muore; la quale opera fu talmente considerata d’imaginazione e poi sì ben condotta, che non pitture o cose 
+        imaginate, ma vive e vere si rappresentano: perché qui si ha paura che non ti cada addosso, et il calor del sole nel friggere e nell’abbruciar 
+        l’ale del misero giovane fa conoscere il fumo e ‘l fuoco acceso, e la morte nel volto d’<name type="person">Icaro</name> si comprende non meno che
+        il dolore e la passione nell’aria di <name type="person">Dedalo</name>. Vedesi in XII storie de’ Mesi quando in ciascuno le arti più dagli 
+        uomini sono con studio esercitate; le quali dir si puote che tanto rendino piacere quanto la fatica d’un così bello ingegno abbia avuto conforto 
+        nel dipignerle sì capricciosamente e giudizio nel conoscerle. Passato quella loggia di tanti stucchi adorna e di tante bizzarrie piena, si capita 
+        in certe stanze, dove dalle fantasie, che varie vi sono, l’intelletto s’abbaglia; perché <name type="person">Giulio</name>, che capriccioso et ingegnosissimo
+        era, volse in un canto del palazzo fare una stanza di muraglia e di pittura unita, tanto simile al vivo che gli uomini ingannasse, et a quegli 
+        nell’entrare facesse paura. Adunque, perché quello edificio in quel cantone, che è ne’ paduli, non patisse danno o impedimento da la debolezza 
+        de’ fondamenti, fece fare nella quadratura della cantonata una stanza tonda, acciocché i quattro cantoni venissero di maggior grossezza, et a 
+        quella stanza una volta tonda a uso di forno. Né avendo tal camera cantoni per il girar di quella, vi fece murare le porte e le finestre e ‘l 
+        camino di pietre rustiche, lavorate e scantonate a caso, e [889] sì dall’una all’altra scommesse, che dall’una banda verso terra ruinavano. Ciò 
+        fatto, si mise a dipignere per quella una storia, quando <name type="myth">Giove</name> fulmina i <name type="myth">Giganti</name>. Aveva <name type="person">Giulio</name> 
+        nel mez[z]o del cielo figurato su certi nugoli il trono e la sedia di <name type="myth">Giove,</name> con l’aquila che teneva il fólgore in 
+        bocca; e <name type="myth">Giove</name> partito di quella, sceso e più basso, lanciava fólgori, lo spavento e ‘l lampo dei quali faceva 
+        <name type="myth">Giunone</name> ristrignersi in se stessa, <name type="person">Ganimede</name> e gli <rs type="people">Dei</rs> fuggire per 
+        lo cielo su carri, <name type="myth">Marte</name> coi lupi, <name type="myth">Mercurio</name> coi galli, la <name type="personification">Luna</name> 
+        con le femmine, il <name type="myth">Sole</name> co’ cavalli, <name type="myth">Saturno</name> coi serpenti, <name type="myth">Ercole</name> 
+        e <name type="myth">Bacco,</name> e <name type="myth">Momo</name> non manco affrettava il fuggire per l’aria che si facessero gli altri, 
+        i quali dalla baruffa de’ venti erano nelle loro vesti involti et aviluppati. Aveva fatto il pavimento di terra di frombole di fiume acconce 
+        che giravano murate, e quelle nel piano della pittura che veniva in terra aveva contrafatte: per che un pezzo quelle dipinte in dentro sfuggivano,
+        e quando da erbe e quando da sassi più grossi erano occupate et adorne. E perché la stanza aveva sopra tutto il cielo pieno di nugoli, et intorno 
+        un paese che non aveva né fine né principio, sendo quella tonda, i monti si congiungevano, et i lontani chi più inanzi o più a dietro sfuggivano. 
+        Erano i Giganti grandi di statura, che da’ lampi de’ fólgori percossi ruinavano a terra, e quale inanzi e quale a dietro cadeva a quelle finestre, 
+        ch’erano diventate grotte overo edificî, e nel ruinarvi sopra i Giganti le facevano cadere, onde chi morto e chi ferito e chi dai monti ricoperto, 
+        si scorgeva la strage e la ruina d’essi. Né si pensi mai uomo vedere di pennello cosa alcuna più orribile o spaventosa né più naturale: perché chi 
+        vi si trova dentro, veggendo le finestre torcere, i monti e gli edificî cadere insieme coi Giganti, dubita che essi e [890] gli edifizî non gli 
+        ruinino addosso. Onde si conosce in questa opera quanto il valore della invenzione e dell’arte abbia avuto origine da <name type="person">Giulio</name> 
+        d’imaginare di nuovo quello che di antico maestro non si scrisse mai, come delle fatiche sue lodatissime per questa opera si veggono.</p> 
+        <p>Fece in questo lavoro perfetto coloritore <name type="person">Rinaldo Mantovano,</name> che oltre alla camera de’ Giganti, dipinta da lui con i cartoni 
+        di <name type="person">Giulio,</name> fece molte altre stanze; il quale mentre che visse sempre gli fece onore in questa arte, e più fatto gliene 
+        avrebbe, se egli, non morendo sì giovane, avesse potuto mostrar quanto egli cercava imitare <name type="person">Giulio</name> suo maestro. Sono 
+        ancora in tal luogo ricetti et altre cose, alle quali tutte è dato dall’ingegno di <name >Giulio</name> quel fine che abbiamo detto 
+        dell’altre. Rifece d’ornamenti di stucchi tutte le stanze del castello dove il <rs type="person">Duca</rs> abitava, e in 
+        una sala fece tutta la storia troiana. Fece ancora fare in una anticamera dodici storie a olio sotto le dodici teste degli Imperatori, le quali 
+        dipinse <name type="person">Tiziano da Cadoro</name>: e veramente sono onorate e belle pitture. Sono altre stanze, e per il <rs type="person">
+        Duca</rs> altre pitture, le quali taceremo, avendo di lui dato quel saggio che si può dare d’un tanto bello ingegno; come chi 
+        andando a <name type="city">Mantova</name> potrà vedere la fabbrica di <name type="place">Marmiruolo</name>, nelle pitture sue non meno belle 
+        che quelle del castello e del T. Fece in <name type="church">Santo Andrea</name> allo altar del Sangue una tavola a olio, bellissima; 
+        et ancora nelle facce due storie: in una la Crocifissione di <name type="person">Cristo</name> coi ladroni e cavalli, dei quali egli continuo 
+        molto si dilettò, e meglio d’altro maestro e più perfettamente di bella maniera gli dipinse; nell’altra faccia èvvi la storia quando trovano 
+        il sangue. E per molte chiese di quella città fece cappelle, tavole e varii ornamenti per abbellirla et ornarla. La qual cosa fu cagione che 
+        [891] quel <rs type="person">Duca</rs> onoratamente lo rimunerò. Inoltre fabbricò per sua abitazione in quella città una casa 
+        dirimpetto a <name type="church">San Barnaba</name>, la quale fece tutta dipignere et abbellire di stucchi, perciò che egli aveva de 
+        le antiquità di <name type="city">Roma</name>, e similmente il <name type="city">Duca</name> gliene aveva date, ch’egli se ne ornasse e ne avesse 
+        buona custodia. E perché grandissima utilità si traeva de’ suoi disegni, ordinò che in <name type="city">Mantova</name> non si potesse far fabbrica 
+        senza disegni et ordine di <name type="city">Giulio</name>; il quale talmente operò con fogne, fossi et ordini buoni dati a’ Mantovani, 
+        che dove prima solevano abitare di continuo nel fango e nella memma, gli ridusse all’asciutto, e di mala aria e pestifera che prima era, 
+        la condusse a buona e sana. Rifece poi la <name type="place">chiesa a San Benedetto</name> da <name type="city">Mantova</name> vicino al 
+        <name type="river">Po</name>, luogo de’ Monaci Neri, e rinovò molti altri edificî. E per tutta la <name type="place">Lombardia</name> giovò 
+        di maniera, che que’ popoli hanno posto di sorte in uso l’arte del disegno, inusitata sino al suo tempo, che ne sono uscite dipoi pratiche 
+        persone e bellissimi ingegni. Faceva di continuo disegni a’ circunvicini e per fabbriche e per opere; come a <name type="city">Verona</name> 
+        nel <name type="church">Duomo</name> fece al <name type="person">Moro Veronese</name>, il quale la tribuna d’esso a fresco dipinse; 
+        et al <rs type="person">Duca</rs> di <name type="city">Ferrara</name> moltissimi disegni per panni di seta e d’arazzi. </p>
+        <p>Mostrò ancora il valor suo nella venuta di <name type="person">Carlo V imperatore</name>, quando fece gli apparati in <name type="city">Mantova</name> e l’ordine 
+        d’una scena, nella quale egli con nuovi ordini di lumi fece recitare, errando il sole mentre si recitò, che faceva lume loro, e finita la 
+        comedia si nascose sotto i monti. Nessuno fu mai che meglio di lui disegnasse celate, selle, fornimenti di spade e mascherate strane, e quelle 
+        con tanta agevolezza espediva, che il disegnare in lui era come lo scrivere in un continuo pratico scrittore. Né pensò mai a fantasia che, 
+        aperto la bocca, non avesse inteso, e lo ani[892]mo altrui con la penna sùbito non esprimesse. Era d’ogni ordine di buone qualità carico 
+        talmente, che la pittura pareva la minor virtù ch’egli avesse. Fece in <name type="city">Mantova</name> in <name type="place">San Domenico</name> 
+        una bellissima tavola d’un <name type="person">Cristo</name> morto; e fece medesimamente fabbricare nel <name type="place">Duomo</name> assai cose
+        per il <rs type="person">cardinale</rs>. Avvenne che il <rs type="person">Duca</rs> si morì; et egli, per la benivolenza ch’e’ portava al 
+        cardinale et a quella patria, dove aveva moglie e figliuoli, benché desiderasse tornare a <name type="city">Roma</name> et andare in altre parti, 
+        mai non si partì di quivi, se non quanto o per muraglie per quello Stato o per altre cose importanti era costretto.</p> 
+        <p>Erano i soprastanti alla <name type="organization">fabbrica di S. Petronio in Bologna</name> desiderosi di dar principio alla facciata di quella; per il che con 
+        grandissima instanza vi condussero <name type="person">Giulio</name> in compagnia di uno <rs type="person">architetto milanese</rs>, chiamato 
+        <name type="person">Tofano Lombardino</name>; i quali fecero per questo disegni et ordini, essendosi smarriti quelli che 
+        <name type="person">Baldassarre Sanese</name> aveva già fatti. E fu sì bello e tanto bene ordinato il disegno fatto da <name type="person">Giulio</name>, 
+        che e’ ne ricevette da quel popolo lode grandissima, e con liberalissimi doni se ne ritornò a Mantova. Era morto in quei giorni 
+        <name type="person">Antonio da S. Gallo</name>, et aveva lasciato in grandissimo travaglio di mente i deputati di <name type="place">San Pietro</name>
+        di <name type="city">Roma</name>, non sapendo essi a cui voltarsi per dargli il carico di dovere con lo ordine cominciato venire a fine di tal 
+        fabbrica; e perché e’ pensarono che altri non fosse migliore a far ciò che il valore di <name type="person">Giulio Romano</name>, dissimulatamente 
+        ne lo facevano tentare per via degli amici, persuadendosi che e’ dovesse accettar volentieri per ripatriare con impresa onorata e con 
+        grossa provisione. E nel vero egli più che volentieri vi sarebbe andato, se due cose non l’avessero ritenuto: l’una era che il 
+        <rs type="person">cardinale</rs> di <name type="city">Mantova</name> non voleva per alcun modo contentarsi ch’egli [893] si partisse; l’altra, che 
+        la moglie, gli amici e’ parenti di lui lo confortavano a non lassar <name type="city">Mantova</name>. E di più si trovava egli allora molto male 
+        disposto del corpo. Laonde rinfrescato di lettere da <name type="city">Roma</name>, cominciò a fantasticare in quanto onore e gloria, et in 
+        casa sua, tal cosa lo porrebbe, et in quanta grandezza d’utile e di grado i figliuoli suoi per la <name type="organization">Chiesa</name> 
+        potevano venire. Per il che, non potendo partire, ne prese tal dispiacere, che fra il male e quello aggravamento di più, si morì in pochi 
+        giorni in <name type="city">Mantova</name>. La quale poteva pur concedergli grazia che, come ella s’era abbellita per lui, così egli la sua patria 
+        ornasse et onorasse: ove per la invidia di non se lo prestare l’una all’altra, fecero sì che poi nessuna di loro non se lo potette godere 
+        altrimenti. Morì di età d’anni LIIII. E finché durerà <name type="city">Mantova</name>, quivi sarà sempre celebrato. Fu da’ suoi figliuoli 
+        pianto e da’ suoi cari amici, et in <name type="church">San Barnaba</name> datogli onorato sepolcro. Né il <rs type="person">cardinale</rs> 
+        né i figliuoli del <rs type="person">Duca</rs> restarono di tal perdita senza dolore, e dolgonsene ancora del continuo ne’ bisogni 
+        loro. Perché le virtù di esso, che l’onorarono in vita, lo fanno e faranno bramare così morto quanto di lui ci sarà memoria. Bene è vero, 
+        quanto a le opere, che se innanzi a lui non fossero morti il Figurino suo creato e <name type="person">Rinaldo Mantovano</name>, le arebbono 
+        fatte, se non tante e tali, simili almeno, come per tutta <name type="city">Mantova</name> s’è veduto nell’opere di <name type="person">Rinaldo</name> 
+        e massimamente in una facciata di chiaro oscuro alla <name type="place">casa de’ Bagni</name> ch’è tenuta bellissima. Rese <name type="city">Giulio</name> 
+        l’anima al cielo il giorno che si fa solenne commemorazione di <date when="1546-11-01" calendar="Gregorian">Tutti i Santi, l’anno MDXLVI</date>. 
+        E gli fu posto alla sepoltura lo infrascritto epitaffio: <cit xml:lang="lat"> <q>VIDEBAT IUPPITER CORPORA SCULPTA PICTAQUE SPIRARE ET AEDES MORTALIUM AEQUARIER COELO [894] IULII VIRTUTE ROMANI. TUNC IRATUS CONCILIO DIVORUM OMNIUM VOCATO 
+        ILLUM E TERRIS SUSTULIT. QUOD PATI NEQUIRET VINCI AUT AEQUARI AB NOMINE TERRIGENA. ROMANUS MORIENS SECUM TRES IULIUS ARTEIS ABSTULIT (HAUD MIRUM) QUATTUOR UNUS ERAT. </q></cit>
+        </p>
+    </div>
+</body>
+</text>
+</TEI>

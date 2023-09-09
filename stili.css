@@ -560,6 +560,9 @@ p > a {
     background-color: bisque;
     color: #C2B5AB;
 }
+#contenitoreDati {
+	flex-direction: column;
+}
 }
 
 @media screen and (max-width:750px) {

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">      
+        <meta author="Gioia Rubini">
+        <title>Giulio Romano</title>
+        <meta name="description" content="Sito dedicato alla figura di Giulio Romano, artista manierista del primo Cinquecento. Contiene il catalogo delle opere da lui realizzate in ogni campo.">
+        <link rel="stylesheet" href="css/stili.css">
+    </head>
+    <body>
+        <header id="FirmaGiulio" class="FirmaGiuliopiccola">
+            <a href="index.html"></a>
+        </header>
+        <nav>
+            <div id="hamburgerContainer" class="hamburgerMenu changeHamburgerIcon"  onclick="changeHamburgerIcon(); setInnerMenuBarVisibility();"> 
+                <div class="rect1"></div>
+                <div class="rect2"></div>
+                <div class="rect3"></div>
+            </div>
+            <div id="innerMenuBarContainer" class="showInnerMenuBar" class="menuBar"> <!--contenitore delle voci di menù-->
+                <a href="index.html" target="_self"> Home </a>
+                <div class="dropdown">
+                    <a class="dropbutton" href="#">Vita<i class="arrow down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="biografia.html" target="_self">Biografia</a>
+                        <a href="vasari.html" target="_self">Vasari racconta Giulio Romano</a>
+                    </div>
+                </div>
+                <a href="catalogo.html" target="_blank"> Catalogo </a>
+                <a href="http://banchedatigonzaga.centropalazzote.it/giulioromano/index.php?page=Home" target="_blank">Altre risorse</a>
+            </div>
+            </div>
+        </nav>
+        <main>
+            <section class="colonna">
+                <article>
+                    <h2>La vita di Giulio Romano</h2>
+                    <h4>Giulio a Roma</h4>
+                    <p><!--Nascita, infanzia, apprendistato presso Raffaello--></p>
+                    <h4>Giulio Pippi: un romano a Mantova</h4>
+                    <p> <!--l'invito di Baldassarre Castiglioni, il trasferimento a Mantova, i lavori per i Gonzaga--></p>
+                </article>
+                <article>
+                    <h2>Linea del tempo</h2>
+                    <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1NM-IWicT9X0Dv6oJBNVyU-scJL2BY6itIl4lFB1p2Ts&font=Default&lang=en&initial_zoom=2&height=400' width='90%' height='400' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+                </article>
+            </section>
+            <aside class="colonna">
+                <div id="VasariGiulio">
+                    <h3>Vedi anche</h3>
+                    <h4>Vasari racconta Giulio Romano</h4>
+                    <img src="C:\Users\rubin\OneDrive\Desktop\uni\magistrale\IIanno\DH\Progetto\Immagini\20230625_111727.jpg" alt="Stampa di un ritratto di Giulio Romano proveniente dalle Vite di Giorgio Vasari." class="responsiveImage">
+                        Ritratto di Giulio Romano</img>
+                </div>
+            </aside>
+        </main>
+        <footer>
+            <div>&copy;Copyright 2023</div>
+            <div>Author: Gioia Rubini</div>
+            <a href="#hamburgerContainer" class="Top">Torna su</a>
+    </footer>
+        <script src="C:\Users\rubin\OneDrive\Desktop\uni\magistrale\IIanno\DH\Progetto\js\ult.js"></script>
+    </body>
+</html>

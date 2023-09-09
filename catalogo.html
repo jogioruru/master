@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">      
+        <meta author="Gioia Rubini">
+        <title>Giulio Romano</title>
+        <meta name="description" content="Sito dedicato alla figura di Giulio Romano, artista manierista del primo Cinquecento. Contiene il catalogo delle opere da lui realizzate in ogni campo.">
+        <link rel="stylesheet" href="css/stili.css">
+        <!--<link rel="stylesheet" href="css/stili.css"
+            integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+            crossorigin=""/>
+        <script src="js/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>-->
+    </head>
+    <body>
+        <a href="index.html">
+            <header class="FirmaGiulio" class="FirmaGiuliopiccola"></header>
+        </a>
+        <nav>
+            <div id="hamburgerContainer" class="hamburgerMenu changeHamburgerIcon"  onclick="changeHamburgerIcon(); setInnerMenuBarVisibility();"> 
+                <div class="rect1"></div>
+                <div class="rect2"></div>
+                <div class="rect3"></div>
+            </div>
+            <div id="innerMenuBarContainer" class="showInnerMenuBar" class="menuBar"> <!--contenitore delle voci di menù-->
+                <a href="home.html" target="_self"> Home </a>
+                <div class="dropdown">
+                    <a class="dropbutton" href="#">Vita<i class="arrow down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="biografia.html" target="_self">Biografia</a>
+                        <a href="vasari.html" target="_self">Vasari racconta Giulio Romano</a>
+                    </div>
+                </div>
+                <a href="catalogo.html" target="_blank"> Catalogo </a>
+                <a href="http://banchedatigonzaga.centropalazzote.it/giulioromano/index.php?page=Home" target="_blank">Altre risorse</a>
+            </div>
+            </div>
+        </nav>
+        <h2>Catalogo</h2>
+        <main class="mainCatalogo">
+            <aside id="buttonContainer">
+                <button id="listaFiltri">Filtra il catalogo</button>
+                <div id="contenutoFiltri">
+                <h4>Filtra per tipologia</h4>
+                <div class="filtriMobile">
+                    <button class="bcatalogo active" onclick="filtraSelezione('tutto')">Tutto</button>
+                    <button class="bcatalogo" id="Pittura" onclick="filtraSelezione('dipinti')">Pittura</button>
+                    <button class="bcatalogo" onclick="filtraSelezione('architettura')">Architettura</button>
+                    <button class="bcatalogo" onclick="filtraSelezione('artiApplicate')">Arti applicate</button>
+                    <button class="bcatalogo" onclick="filtraSelezione('disegni')">Disegno</button>
+                </div>
+                <h4>Filtra per committenza</h4>
+                <div class="filtriMobile">    
+                        <button class="bcatalogo" onclick="filtraSelezione('Gonzaga')">Gonzaga</button>
+                        <button class="bcatalogo" onclick="filtraSelezione('Fugger')">Fugger</button>
+                        <button class="bcatalogo" onclick="filtraSelezione('Turini')">Baldassarre Turini</button>
+                </div>
+                <h4>Filtra per località di origine</h4>
+                <div class="filtriMobile">
+                    <button class="bcatalogo" onclick="filtraSelezione('Roma')">Roma</button>
+                    <button class="bcatalogo" onclick="filtraSelezione('Mantova')">Mantova</button>
+                    <button class="bcatalogo" onclick="filtraSelezione('Vicenza')">Vicenza</button>
+                </div>
+                </div>
+                <br>
+                
+                <!--<a href="https://uploads.knightlab.com/storymapjs/504b0e6df857487ec18de23309857c9c/giulio-romano/index.html">Dove si trovano ora</a>-->
+            </aside>
+            <section class="sectionCatalogo">
+                <div class="flexcard">
+                    <a href="adorazione.html" target="_self" class="card dipinti">
+                        <div>
+                            <img src="C:/Users/rubin/OneDrive\Desktop/uni/magistrale/IIanno/DH/Progetto/Immagini/GiulioRomano-Adorazione_dei_pastori.JPG"
+                                alt="Giulio Romano, Adorazione dei Pastori"
+                                class="responsiveImage responsiveImageMobile">
+                            <div class="container">
+                                <p class="autore">Giulio Romano</p>
+                                <p class="titolo">Adorazione dei pastori con i santi Longino e Giovanni Evangelista</p>
+                                <p class="anno">1535 circa</p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="card dipinti Roma" id="7">
+                        <img src="Immagini/G.Romano_Madonna_Bambino_Barberini.jpg" alt="" class="responsiveImage responsiveImageMobile">
+                        <div class="container">
+                            <p class="autore">Giulio Romano</p>
+                            <p class="titolo">Madonna con Bambino (Madonna Herz)</p>
+                            <p class="anno">1516 circa</p>
+                        </div>
+                    </div>                    
+                    <div class="card disegni" id="4">
+                        <img src="css\Immagini\Giulio_Romano-disegno.jpg"
+                            alt="Giulio Romano, disegno"
+                            class="responsiveImage responsiveImageMobile">
+                        <div class="container">
+                            <p class="autore">Giulio Romano</p>
+                            <p class="titolo">Disegno</p>
+                            <p class="anno"></p>
+                        </div>
+                    </div>
+                    <div class="card disegni Gonzaga" id="6">
+                        <img src="Immagini/G.Romano-Allegioria_Virtù_Federico_II_Gonzaga.jpg" alt="Giulio Romano, Allegoria delle virtù di Federico II Gonzaga" 
+                            class="responsiveImage responsiveImageMobile">
+                        <div class="container">
+                            <p class="autore">Giulio Romano</p>
+                            <p class="titolo">Allegoria delle Virtù di Federico II Gonzaga</p>
+                            <p class="anno"></p>
+                        </div>
+                    </div>
+                    <div class="card dipinti Gonzaga" >
+                        <img src="C:/Users/rubin/OneDrive/Desktop/uni/magistrale/IIanno/DH/Progetto/Immagini/GiulioRomano-Amanti.jpg"
+                            alt="Giulio Romano, Gli Amanti"
+                            class="responsiveImage responsiveImageMobile">
+                        <div class="container">
+                            <p class="autore">Giulio Romano</p>
+                            <p class="titolo">Gli Amanti</p>
+                            <p class="anno"></p>
+                        </div>
+                    </div>
+                    
+                    <div class="card dipinti Mantova Gonzaga" id="8">
+                        <img src="Immagini/G.Romano-Banquet_of_Amor_and_Psyche.jpg" alt="" class="responsiveImage responsiveImageMobile">
+                        <div class="container">
+                            <p class="autore">Giulio Romano</p>
+                            <p class="titolo">Banchetto di Amore e Psiche, Camera di Amore e Psiche, Palazzo Te</p>
+                            <p class="anno">1526-1528</p>
+                        </div>
+                    </div>
+                    <div class="card architettura Mantova" id="9">
+                        <img src="Immagini/G.Romano-Casa.jpg" alt="" class="responsiveImage responsiveImageMobile">
+                        <div class="container">
+                            <p class="autore">Giulio Romano</p>
+                            <p class="titolo">Casa di Giulio Romano<p>
+                            <p class="anno">1544</p>
+                        </div>
+                    </div>
+                    <div class="card architettura Roma Turini">
+                        <img src="C:/Users/rubin/OneDrive/Desktop/uni/magistrale/IIanno/DH/Progetto/Immagini/1024px-Villa_Lante_al_Gianicolo_3.jpg"
+                            alt="Giulio Romano, Villa Lante al Gianicolo"
+                            class="responsiveImage responsiveImageMobile">
+                        <div class="container">
+                            <p class="autore">Giulio Romano</p>
+                            <p class="titolo">Villa Lante al Gianicolo</p>
+                            <p class="anno">1518-1531</p>
+                        </div>
+                    </div>
+                    <div class="card architettura Mantova Gonzaga" id="architettura">
+                        <img src="Immagini/G.Romano-Duomo.jpg" alt="" class="responsiveImage responsiveImageMobile">
+                        <div class="container">
+                            <p class="autore">Giulio Romano</p>
+                            <p class="titolo">Cattedrale di San Pietro (Duomo di Mantova)</p>
+                            <p class="anno">inizio lavori 1545/1546</p>
+                        </div>
+                    </div>
+                    <div class="card architettura Mantova Gonzaga">
+                        <img src="Immagini/G.Romano-Palazzo_Te_esterno.jpg"
+                            alt=""
+                            class="responsiveImage responsiveImageMobile">
+                        <div class="container">
+                            <p class="autore">Giulio Romano</p>
+                            <p class="titolo">Palazzo Te</p>
+                            <p class="anno">1524-1534</p>
+                        </div>
+                    </div>
+                    <div class="card architettura Mantova Gonzaga">
+                        <img src="Immagini/G.Romano-Pescherie.jpg" alt="" class="responsiveImage responsiveImageMobile">
+                        <div class="container">
+                            <p class="autore">Giulio Romano</p>
+                            <p class="titolo">Pescherie</p>
+                            <p class="anno">1536</p>
+                        </div>
+                    </div>
+                    <div class="card architettura Mantova Gonzaga">
+                        <img src="Immagini/IMG-20191211-WA0034.jpg" alt="" class="responsiveImage responsiveImageMobile">
+                        <div class="container">
+                            <p class="autore">Giulio Romano</p>
+                            <p class="titolo">Corte Rustica, Palazzo Ducale, Mantova</p>
+                            <p class="anno">1538-1539</p>
+                        </div>
+                    </div>
+                    <div class="card architettura" id="architettura">
+                        <img src="Immagini/P1180338.JPG" alt="Giulio Romano, Chiesa di San Benedetto Po"
+                            class="responsiveImage responsiveImageMobile">
+                        <div class="container">
+                            <p class="autore">Giulio Romano</p>
+                            <p class="titolo">Abbazia di San Benedetto Po</p>
+                            <p class="anno">1539-1544</p>
+                        </div>
+                    </div>
+                    <div class="card architettura Vicenza">
+                        <img src="Immagini/G.Romano-Palazzo_Thiene_esterno.jpeg" alt="" class="responsiveImage responsiveImageMobile">
+                        <div class="container">
+                            <p class="autore">Giulio Romano (attribuito)</p>
+                            <p class="titolo">Palazzo Thiene</p>
+                            <p class="anno">1546</p>
+                        </div>
+                    </div>                                                  
+                    <div class="card disegni" id="12">
+                        <img src="Immagini/G.Romano-Ercole_Idra.jpg" alt="" class="responsiveImage responsiveImageMobile">
+                        <div class="container">
+                            <p class="autore">Giulio Romano</p>
+                            <p class="titolo">Ercole che si riposa dopo aver ucciso l'Idra</p>
+                            <p class="anno">1535 circa</p>
+                        </div>
+                    </div>
+                    <div class="card dipinti" id="13">
+                        <img src="Immagini/G.Romano-Giganti.jpg" alt="" class="responsiveImage responsiveImageMobile">
+                        <div class="container">
+                            <p class="autore">Giulio Romano</p>
+                            <p class="titolo">Camera dei Giganti</p>
+                            <p class="anno">1532-1535</p>
+                        </div>
+                    </div>
+                    <div class="card dipinti" id="14">
+                        <img src="Immagini/G.Romano-Madonna.jpg" alt="" class="responsiveImage responsiveImageMobile">
+                        <div class="container">
+                            <p class="autore">Giulio Romano</p>
+                            <p class="titolo">Madonna con Bambino e Giovanni Battista</p>
+                            <p class="anno">1522-1524</p>
+                        </div>
+                    </div>
+                    <div class="card dipinti" id="15">
+                        <img src="Immagini/G.Romano-Nascita_Bacco.jpg" alt="" class="responsiveImage responsiveImageMobile">
+                        <div class="container">
+                            <p class="autore">Giulio Romano</p>
+                            <p class="titolo">Nascita di Bacco</p>
+                            <p class="anno">1533 circa</p>
+                        </div>
+                    </div>
+                    <div class="card artiApplicate disegni" id="">
+                        <img src="Immagini/G.Romano-Vaso_Capre.jpg" alt="" class="responsiveImage responsiveImageMobile">
+                        <div class="container">
+                            <p class="autore">Giulio Romano (attribuito)</p>
+                            <p class="titolo"> Disegno per un vaso riccamente ornato sostenuto da tre capre</p>
+                            <p class="anno"></p>
+                        </div>
+                    </div> 
+                    <div class="card artiApplicate" id="">
+                        <img src="Immagini/G.Romano-Scudo_Battaglia_Navale.JPG" alt="" class="responsiveImage responsiveImageMobile">
+                        <div class="container">
+                            <p class="autore">Giulio Romano</p>
+                            <p class="titolo">Tondo da parata: Battaglia Navale</p>
+                            <p class="anno">Verso 1530</p>
+                        </div>
+                    </div>        
+                    <div class="card dipinti" id="">
+                        <img src="Immagini/G.Romano-Sacra_Famiglia_Getty.jpg" alt="" class="responsiveImage responsiveImageMobile">
+                        <div class="container">
+                            <p class="autore">Giulio Romano</p>
+                            <p class="titolo">Sacra Famiglia</p>
+                            <p class="anno">1520-1523 circa</p>
+                        </div>
+                    </div>        
+                    <div class="card artiApplicate disegni Gonzaga" id="">
+                        <img src="Immagini/G.Romano-Disegno_Cassetta_Gonzaga.jpg" alt="" class="responsiveImage responsiveImageMobile">
+                        <div class="container">
+                            <p class="autore">Giulio Romano</p>
+                            <p class="titolo">Disegno per uno scrigno con l'aquila Gonzaga</p>
+                            <p class="anno">1527-1546</p>
+                        </div>
+                    </div>        
+                    <div class="card dipinti Roma Fugger" id="">
+                        <img src="Immagini/G.Romano-Sacra_Famiglia.jpg" alt="" class="responsiveImage responsiveImageMobile">
+                        <div class="container">
+                            <p class="autore">Giulio Romano</p>
+                            <p class="titolo">Sacra Famiglia con san Giovannino, san Giacomo Maggiore e san Marco (Pala Fugger)</p>
+                            <p class="anno">1520 circa</p>
+                        </div>
+                    </div>        
+                    <div class="card disegni artiApplicate" id="">
+                        <img src="Immagini/G.Romano-Disegno_Scodella.jpg" alt="" class="responsiveImage responsiveImageMobile">
+                        <div class="container">
+                            <p class="autore">Giulio Romano</p>
+                            <p class="titolo">Disegno per una scodella</p>
+                            <p class="anno">1526-1550</p>
+                        </div>
+                    </div> 
+                    <div class="card artiApplicate disegni">
+                        <img src="Immagini/G.Romano-Progetto_Tabernacolo.jpg" alt="" class="responsiveImage responsiveImageMobile">
+                        <div class="container">
+                            <p class="autore">Giulio Romano</p>
+                            <p class="titolo">Progetto per un tabernacolo</p>
+                            <p class="anno">1514-1546</p>
+                        </div>
+                    </div>
+                    <div class="card artiApplicate Disegno Gonzaga">
+                        <img src="Immagini/G.Romano-Progetto_Elsa_MOlimpo.jpg" alt="" class="responsiveImage responsiveImageMobile">
+                        <div class="container">
+                            <p class="autore">Giulio Romano</p>
+                            <p class="titolo">Progetto per elsa di spada con l'impresa del Monte Olimpo</p>
+                            <p class="anno">1524-1540</p>
+                        </div>
+                    </div>                                                       
+                <!--<div class="card">
+                    <img src="" alt="" class="responsiveImage">
+                    <div class="container">
+                        <p class="autore">Giulio Romano</p>
+                        <p class="titolo"></p>
+                        <p class="anno"></p>
+                    </div>
+                </div>-->                                                  
+            </div>    
+                
+            </section>
+            
+        </main>
+        <footer>
+            <div>&copy;Copyright 2023</div>
+            <div>Author: Gioia Rubini</div>
+            <a href="#hamburgerContainer" class="Top">Torna su</a>
+        </footer>
+        <script src="js\ult.js"></script>
+    </body>
+</html>

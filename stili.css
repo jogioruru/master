@@ -201,6 +201,9 @@ section{
     align-items: center;
     color: black;
 }
+img > #VitaGiulio {
+    color: black;
+}
 a {
     text-decoration: none;
 }

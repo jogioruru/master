@@ -572,6 +572,18 @@ p > a {
     h5#Sottotitolo {
         font-size: 1.3em;
     }
+	main {
+        flex-direction: column;
+    }
+    #Vasarisection {
+        width: auto;
+    }
+    #VasariGiulio, #VitaGiulio {
+        width: 90vw;
+    }
+	button.Catalogo {
+		width:80vw;
+}
 }
 
 @media screen and (max-width:450px) {

@@ -12,7 +12,7 @@ header {
     padding-bottom: 5%;
 }
 .FirmaGiulio {
-    background-image: url("Immagini/firma_Giulio_Romano_red.jpg");
+    background-image: url("firma_Giulio_Romano_red.jpg");
     background-size: contain;   
     background-repeat: no-repeat;
     background-position:top;
@@ -152,7 +152,7 @@ nav {
 
 .DisegnoBackground {
     background-color:#7E8B90;
-    background-image: url("Immagini/Giulio_Romano-disegno.jpg");
+    background-image: url("Giulio_Romano-disegno.jpg");
     height: 60vw;
     background-size: contain;
     background-repeat: no-repeat;

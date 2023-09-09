@@ -1,0 +1,636 @@
+* {
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+header {
+    background-color: #B5B1A8;
+    height: 20vw;
+    padding-top:5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 5%;
+}
+.FirmaGiulio {
+    background-image: url("Immagini/firma_Giulio_Romano_red.jpg");
+    background-size: contain;   
+    background-repeat: no-repeat;
+    background-position:top;
+    display: grid;
+}
+
+
+/*NAV*/
+nav {
+    background-color: #B5B1A8;
+    padding-bottom: 0.5%;
+}
+.hideInnerMenuBar {
+	display: flex;
+}
+
+.showInnerMenuBar {
+  	display: none;
+}
+
+.menuBar {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-betweem;*/
+}
+
+#innerMenuBarContainer > a {
+    padding: 2% 3%;
+    text-decoration: none; /*toglie la sottolineatura tipica di un link*/
+    text-align: center;
+    color: bisque;
+    flex-basis: fit-content;
+    flex-grow: 1;
+}
+
+#innerMenuBarContainer > a:hover {
+    background-color: bisque;
+    color: #B5B1A8;
+}
+
+.hamburgerMenu {
+    cursor: pointer;
+    margin-left: auto; /*alternativa a align-self: flex-end*/
+    /*align-self: flex-end;*/
+    padding-top:2%;
+}
+
+.rect1, .rect2, .rect3 /* queste sono le linee rette*/ { 
+    width: 30px;
+    height: 4px;
+    background-color: bisque;
+    margin: 6px 0px;
+    transition: 0.5s;
+}
+
+.changeHamburgerIcon .rect1 {
+    transform: rotate(-45deg) translate(-8px, 6px);
+    -webkit-transform: rotate(-45deg) translate(-8px, 6px);
+}
+
+.changeHamburgerIcon .rect2 {
+    opacity: 0;
+}
+
+.changeHamburgerIcon .rect3 {
+    transform: rotate(45deg) translate(-8px, -6px);
+    -webkit-transform: rotate(45deg) translate(-8px, -6px); 
+}
+
+/*Dropdown button*/
+.dropbutton {
+    display: blocK;
+    background-color: #B5B1A8;
+    color: bisque;
+    padding: 2% 3%;
+    text-align: center;
+    text-decoration: none;
+    border: 0;
+    outline: none;
+    margin: 0
+}
+.dropdown:hover .arrow:hover {
+    background-color: bisque;
+    color: #B5B1A8;
+}
+.dropdown {
+    position: relative;
+    display:inline-block;
+    padding: 2% 3%;
+    text-decoration: none;
+    text-align: center;
+    color: bisque;
+    flex-grow: 1.2;
+}
+
+.dropdown-content {
+    display: none;
+    position:absolute;
+    background-color: #B5B1A8;
+    min-width: 130%;
+    text-align: left;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 0;
+}
+.dropdown-content a {
+    color: bisque;
+    padding: 2% 3%;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: bisque;
+    padding: 2% 3%;
+    color: #B5B1A8;
+}
+.dropdown:hover .dropdown-content{display: block;}
+.dropdown:hover .dropbutton {
+    background-color: bisque;
+    color: #C2B5AB;
+}
+.arrow {
+    border: 1px solid bisque;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+    margin-left: 5%;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }  
+
+
+
+
+.DisegnoBackground {
+    background-color:#7E8B90;
+    background-image: url("Immagini/Giulio_Romano-disegno.jpg");
+    height: 60vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 0;
+}
+h1, #Sottotitolo {
+    color: #363026;
+}
+h1#Giulio {
+    font-size: 5.5em;
+    letter-spacing: 0.1em;
+}
+h5#Sottotitolo{
+    font-size: 3em;
+}
+#Sottotitolo > em {
+    font-style: italic;
+    font-size: 1.3em;
+}
+
+
+
+section{
+    margin: 1em;
+    width: 70%;
+}
+
+
+/*Vita*/
+#VitaGiulio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#VasariGiulio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+#VasariGiulio > a:visited, #VitaGiulio > a:visited{
+    color: #000000;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    float: right;
+    width: 27%;
+}
+.responsiveImage {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/*Footer*/
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #B5B1A8;
+    padding: 2%;
+    margin: 0;
+    justify-content: flex-end;
+}
+
+footer > div {
+    border: #B5B1A8 1px solid;
+    padding: 2%;
+    align-self: flex-start;
+}
+.Top {
+    text-decoration: none;
+    color: #000000;
+    padding-top:2%;
+}
+
+/*Esplora il catalogo Catalogo*/
+Article > h2 {
+    text-align: center;
+}
+article > button {
+    background-color: #C2B5AB; 
+    width: 100%;
+    border: none;
+    color:black;
+    padding: 3% 8%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+}
+button:hover {
+    background-color:#C2C0AB;
+}
+.panel {
+    padding:0 2%;
+    background-color:bisque;
+    display: none;
+    overflow: hidden;
+}
+
+/*Pagina - Vite Vasari*/
+
+#vasariSection > h2{
+    text-align: center;
+    font-size: 2rem;
+}
+#vasariSection > h3 {
+    font-size: 1.7rem;
+    text-align: center;
+}
+h3 > em{
+    font-style: italic;
+    font-size: 1.7rem;
+}
+em.vasariscritte {
+    font-style: italic;
+    font-size: 1.3rem;
+}
+.vasaritext > h5, .vasaritext > h3{
+    text-align: center;
+}
+.vasaritext >h3 {
+    font-size: 1.5rem;
+}
+.vasaritext > h5 {
+    font-size: 1.3rem;
+}
+.titoloCapitolo, .sottotitoloCapitolo {
+    text-align: center;
+}
+.testoVasari {
+    text-align: justify;
+}
+.quote {
+    text-align: center;
+}
+#catalogoMobile {
+    position: sticky;
+    top: 0;
+}
+#catalogoMobile > h3 {
+    text-align: center;
+}
+
+/*Pagina - Catalogo*/
+.FirmaGiuliopiccola {
+    background-color: #B5B1A8;
+    height: 10vw;
+    padding-top:5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 5;
+}
+.sectionCatalogo > h2 {
+    font-size: 2em;
+    text-align: center;
+}
+#buttonContainer {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+    align-items: stretch;
+    margin-top: 2%;
+}
+#listaFiltri {
+    display: none;
+}
+.flexcard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.card {
+    background-color: #C2B5AB;
+    color: #000000;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 30vw;
+    height: auto;
+    margin:3% 2%;
+    display: none;
+    text-align: center;
+    line-height: 100px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container {
+    padding: 2px 16px;
+}
+div.card > img {
+    border-radius: 5px 5px 0 0;
+}
+.container > p {
+    line-height: 1.5;
+}
+.show {
+    display: block;
+}
+.bcatalogo {
+    border: none;
+    outline: none;
+    margin: 2% 0;
+    padding: 3% 4%;
+    background-color: bisque;
+    cursor: pointer;
+    color: #363026;
+}
+.bcatalogo:hover{
+    background-color: #C2B5AB;
+}
+.bcatalogo.active {
+    background-color: #666;
+    color: #fff;
+}
+.bcatalogo:active{
+    background-color: #363026;
+    color: #fff;
+}
+.bcatalogo::after{
+    background-color: #363026;
+    color: #fff;
+}
+#buttonContainer > a {
+    color: #363026;
+    text-decoration: none;
+    background-color: bisque;
+    color: #363026;
+    padding: 3% 4%;
+    text-align: center;
+}
+#buttonContainer > a:hover{
+    background-color: #C2B5AB;
+    color: bisque;
+}
+
+
+/*item*/
+.ImageItem {
+    width: 65%;
+}
+#contenitoreDati {
+    min-height: 1px;
+    padding: 1.25rem;
+    float: right;
+}
+.datiOpera{
+    margin-top:0;
+    margin-bottom: 0.3rem;
+    border-bottom:0.5px solid #363026;
+    display: flex;
+    flex-direction: column;
+}
+.datiOpera > p {
+    margin-left: 2%;
+    margin-top: 0;
+}
+.datiOpera > span {
+    text-align: center;
+    font-weight: bold;
+}
+.Correlate {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #C2C0AB;
+    width: 98vw;
+}
+.immagineCorrelata {
+    width: 100%;
+    height: auto;
+}
+.immagineCorrelata:hover{
+    border: 1px solid #666;
+
+}
+.immagineCorrelata > img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.immagineCorrelata > h6 {
+    padding: 2%;
+    text-align: center;
+}
+.mainItem{
+    display: flex;
+    flex-direction: column;
+}
+.mainItem > section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.xmlbutton{
+    border: 1px solid #363026;
+    background-color: bisque;
+    color: #363026;
+    padding: 2% 3%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+}
+p > a {
+    color: #000000;
+}
+
+
+
+@media screen and (max-width:1100px) {
+    h1#Giulio {
+        font-size: 3rem;
+    }
+    h5#Sottotitolo {
+        font-size: 2em;
+    }
+}
+@media screen and (max-width:900px) {
+    .showInnerMenuBar {
+        display: none;
+    }
+    .hideInnerMenuBar {
+        flex-direction: column;
+    }
+    .columnCatalogo {
+        width: 50%;
+    }
+    
+    .FirmaGiulio {
+        width: auto;
+        height: auto;
+    }
+    #innerMenuBarContainer {
+        overflow: hidden;
+        background-color: #B5B1A8;
+        position: relative;
+    }
+    .dropdown {
+        display: flex;
+        justify-content: center;
+    }
+    #innerMenuBarContainer a .dropdown{
+        color: black;
+        padding:1.5%;
+        text-decoration: none;
+        font-size: 0.7em;
+        display: block;
+    }
+    #innerMenuBarContainer a:hover .dropdown:hover {
+        background-color: #C2B5AB;
+        color: #000000;
+    }
+    .active {
+        background-color: #C2B5AB;
+        color: #000000;
+    }
+.dropdown-content {
+    display: none;
+    position:absolute;
+    background-color: #B5B1A8;
+    min-width: 130%;
+    text-align: left;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 0;
+}
+.dropdown-content a {
+    color: bisque;
+    padding: 2% 3%;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: bisque;
+    padding: 2% 3%;
+    color: #B5B1A8;
+}
+.dropdown:hover .dropdown-content{display: block;}
+.dropdown:hover .dropbutton {
+    background-color: bisque;
+    color: #C2B5AB;
+}
+}
+
+@media screen and (max-width:750px) {
+    h1#Giulio {
+        font-size: 2rem;
+    }
+    h5#Sottotitolo {
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .mainCatalogo {
+        flex-direction: column;
+    }
+    .sectionCatalogo {
+        margin-left: 12%;
+    }
+    #listaFiltri {
+        display: inline-block;
+        border: #000000;
+        background-color: antiquewhite;
+        color: #363026;
+        position: relative;
+    }
+    #contenutoFiltri {
+        display: none;
+        position: relative;
+        z-index: 1;
+    }
+    #buttonContainer:hover #contenutoFiltri {
+        display:inline;
+    }
+    #contenutoFiltri {
+        border: 1px solid black;
+        width: 98vw;
+    }
+    .filtriMobile {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .bcatalogo {
+        margin-left: 2%;
+    }
+    .flexcard {
+        flex-direction: column;
+        align-items: center;
+        width: 70vw;
+    }
+    .responsiveImageMobile {
+        width: 60vw;
+        height: auto;
+    }
+    .card {
+        width: 60vw;
+    }
+    h1#Giulio {
+        font-size: 1.3rem;
+    }
+    h5#Sottotitolo {
+        font-size: 0.7em;
+    }
+    #All {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+@media(prefers-reduced-motion) /* rallenta lo scroll rapido in caso di software impostati dall'utente con disabilità che diano la possibilità di rallentare*/
+    {
+        html:focus-within {
+            scroll-behavior: auto;
+        }
+    }
+

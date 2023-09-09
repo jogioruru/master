@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">      
+        <meta author="Gioia Rubini">
+        <title>Giulio Romano</title>
+        <meta name="description" content="Sito dedicato alla figura di Giulio Romano, artista manierista del primo Cinquecento. Contiene il catalogo delle opere da lui realizzate in ogni campo.">
+        <META NAME="DC.Title" CONTENT="Adorazione dei pastori con i santi Longino e Giovanni evangelista">
+            <META NAME="DC.Description" CONTENT="Pastori in adorazione della natività con la presenza di Longino e Giovanni Evangelista">
+            <META NAME="DC.Publisher" CONTENT="Università di Bologna">
+            <META NAME="DC.Contributor" CONTENT="Gioia Rubini">
+            <META NAME="DC.Date" CONTENT="2023-07-15">
+            <META NAME="DC.Type" CONTENT="Risorsa digitale">
+            <META NAME="DC.Format" CONTENT="Risorsa digitale">
+            <META NAME="DC.Identifier" CONTENT="">
+            <META NAME="DC.Relation" CONTENT="">
+            <META NAME="DC.Rights" CONTENT="">
+        <link rel="stylesheet" href="css/stili.css">
+    </head>
+    <body>
+        <header class="FirmaGiulio">
+            <a href="index.html"></a>
+        </header>
+        <nav>
+            <div id="hamburgerContainer" class="hamburgerMenu changeHamburgerIcon"  onclick="changeHamburgerIcon(); setInnerMenuBarVisibility();"> 
+                <div class="rect1"></div>
+                <div class="rect2"></div>
+                <div class="rect3"></div>
+            </div>
+            <div id="innerMenuBarContainer" class="showInnerMenuBar" class="menuBar"> <!--contenitore delle voci di menù-->
+                <a href="index.html" target="_self" class="mobile"> Home </a>
+                <div class="dropdown">
+                    <a class="dropbutton" href="#" class="mobile">Vita<i class="arrow down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="biografia.html" target="_self" class="mobile">Biografia</a>
+                        <a href="vasari.html" target="_self" class="mobile">Vasari racconta Giulio Romano</a>
+                    </div>
+                </div>
+                <a href="catalogo.html" target="_blank"> Catalogo </a>
+                <a href="http://banchedatigonzaga.centropalazzote.it/giulioromano/index.php?page=Home" target="_blank">Altre risorse</a>
+            </div>
+            </div>
+        </nav>
+        <div class="DisegnoBackground">
+            <h1 id="Giulio">Giulio Romano</h1>
+            <h5 id="Sottotitolo"><em>That rare italian master</em></h5>
+        </div>
+        <main id="All"> 
+            <section class="colonna">
+                <article>
+                    <h2>Il progetto</h2>
+                    <p><em>That rare italian master - Giulio Romano</em> è un progetto di DH che ha l'obiettivo di fornire agli utenti la possibilità
+                    di conoscere il catalogo delle opere di Giulio Romano. Giulio Romano come molti altri artisti dell'età rinascimentale non si è occupato
+                    soltanto di un ambito delle arti, ma con la sua bottega ha creato dipinti, edifici sia civili sia religiosi, ma anche opere di più piccolo 
+                    formato.</p>
+                    <h2>Esplora il catalogo</h2>
+                    <p>Giulio Romano come il suo maestro Raffaello non si è occupato solamente
+                    di pittura, ma anche di architettura.</p>
+                    <button class="Catalogo">Architettura</button>
+                    <div class="panel">
+                        <a href="catalogo.html" onload="filtraSelezione('architettura')">Vai alle opere</a>
+                    </div>
+                    <button class="Catalogo">Pittura</button>
+                    <div class="panel">
+                        <a href="catalogo.html" onclick="filterselection('dipinti')">Vai alle opere</a>
+                    </div>
+                    <button class="Catalogo">Arti decorative</button>
+                    <div class="panel">
+                        <a href="catalogo.html#artiApplicate" >Vai alle opere</a>
+                    </div>
+                    <button class="Catalogo">Disegno</button>
+                    <div class="panel">
+                        <a href="catalogo.html#disegni">Vai alle opere</a>
+                    </div>
+                </article>
+            </section>
+            <aside class="colonna">
+                <article>
+                    <div id="VitaGiulio">
+                        <h2>La vita Giulio Romano</h2>
+                        <a href="https://example.org"><img src="Immagini\Titian-portrait_Giulio_Romano.jpg" alt="Ritratto di Giulio Romano eseguito da Tiziano. Nel dipinto vi è un uomo barbuto ritratto a mezzobusto. Tra le mani è presente il disegno di una pianta che non è mai stata esattamente identificata." id="Titian_Giulio" class="responsiveImage">
+                            Tiziano, Ritratto di Giulio Romano, 1536-1538, Mantova, Palazzo Te</img></a>
+                    </div>
+                    <div id="VasariGiulio">
+                        <h2>La vita di Giulio Romano secondo Giorgio Vasari</h2>
+                        <a href="vasari.html" target="_self"><img src="C:\Users\rubin\OneDrive\Desktop\uni\magistrale\IIanno\DH\Progetto\Immagini\20230625_111727.jpg" alt="Stampa di un ritratto di Giulio Romano proveniente dalle Vite di Giorgio Vasari." class="responsiveImage">
+                            Ritratto di Giulio Romano</img></a>
+                    </div>
+                </article>
+                <!--<article>
+                    <h4>Curiosità</h4>
+                    <p>L'unico pittore vivente menzionato da William Shakespeare</p>
+                    <a href="#">Approfondisci</a>
+                </article>-->
+            </aside>
+        </main>
+    <footer>
+            <div>&copy;Copyright 2023</div>
+            <div>Author: Gioia Rubini</div>
+            <a href="#hamburgerContainer" class="Top">Torna su</a>
+    </footer>
+        <script src="js/ult.js"></script>
+    </body>
+</html>

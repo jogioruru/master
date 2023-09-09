@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">      
+        <meta author="Gioia Rubini">
+        <title>Giulio Romano</title>
+        <meta name="description" content="Sito dedicato alla figura di Giulio Romano, artista manierista del primo Cinquecento. Contiene il catalogo delle opere da lui realizzate in ogni campo.">
+        <link rel="stylesheet" href="css/stili.css">
+        <link rel="schema.DCTERMS" href="https://purl.org/dc/terms/">
+        <link rel="DCTERMS.isReferencedBy" href="doc123">
+    </head>
+    <body>
+        <header class="FirmaGiulio" class="FirmaGiuliopiccola">
+            <a href="index.html"></a>
+        </header>
+        <nav>
+            <div id="hamburgerContainer" class="hamburgerMenu changeHamburgerIcon"  onclick="changeHamburgerIcon(); setInnerMenuBarVisibility();"> 
+                <div class="rect1"></div>
+                <div class="rect2"></div>
+                <div class="rect3"></div>
+            </div>
+            <div id="innerMenuBarContainer" class="showInnerMenuBar" class="menuBar"> <!--contenitore delle voci di menù-->
+                <a href="home.html" target="_self"> Home </a>
+                <div class="dropdown">
+                    <a class="dropbutton" href="#">Vita<i class="arrow down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="biografia.html" target="_self">Biografia</a>
+                        <a href="vasari.html" target="_self">Vasari racconta Giulio Romano</a>
+                    </div>
+                </div>
+                <a href="catalogo.html" target="_blank"> Catalogo </a>
+                <a href="http://banchedatigonzaga.centropalazzote.it/giulioromano/index.php?page=Home" target="_blank">Altre risorse</a>
+            </div>
+            </div>
+        </nav>
+        <main class="mainItem">
+            <section>
+                <img src="Immagini/GiulioRomano-Adorazione_dei_pastori.JPG" class="ImageItem">
+                <article id="contenitoreDati">
+                    <div class="datiOpera">
+                        <span>Titolo:</span>
+                        <p>Adorazione dei pastori con i santi Longino e Giovanni Evangelista</p>
+                    </div>
+                    <div class="datiOpera">
+                        <span>Creatore:   </span>
+                        <p><a href="https://viaf.org/viaf/74007636/" target="_blank" title="Identificativo VIAF di Romano, Giulio">Romano, Giulio</a></p>
+                    </div>
+                    <div class="datiOpera">
+                        <span>Data:   </span>
+                        <p>1535 circa</p>
+                    </div>
+                    <div class="datiOpera">
+                        <span>Dimensioni:   </span>
+                        <p>2,75m(h) x 2,13(l)</p>
+                    </div>
+                    <div class="datiOpera">
+                        <span>Materiali e Tecniche:   </span>
+                        <p>Olio su tavola</p>
+                    </div>
+                    <div class="datiOpera">
+                        <span>Codice identificativo:  </span>
+                        <p>INV 421 ; MR 300</p>
+                    </div>
+                    <div class="datiOpera">
+                        <span>Posizione attuale:   </span>
+                        <p>Musée du Louvre</p>
+                    </div>                    
+                    <a href="xml/adorazione.xml" class="xmlbutton">Vai alla versione XML</a>
+                </article>
+            </section>
+            <aside>
+                <article>
+                    <h3>Opere correlate</h3>
+                    <div class="Correlate">
+                        <div class="immagineCorrelata">
+                            <img src="Immagini/G.Romano-Sacra_Famiglia.jpg" alt="" class="responsiveImage">
+                            <h6>Pala Fugger</h6>
+                        </div>
+                        <div class="immagineCorrelata">
+                            <img src="Immagini/G.Romano-Progetto_Tabernacolo.jpg" alt="" class="responsiveImage">
+                            <h6>Progetto per un tabernacolo</h6>
+                        </div>
+                        <div class="immagineCorrelata">
+                            <img src="Immagini/G.Romano-Duomo.jpg" alt="" class="responsiveImage">
+                            <h6>Cattedrale di San Pietro, Mantova</h6>
+                        </div>
+                </article>
+            </aside>
+        </main>
+        <footer>
+            <div>&copy;Copyright 2023</div>
+            <div>Author: Gioia Rubini</div>
+            <a href="#hamburgerContainer" class="Top">Torna su</a>
+        </footer>
+        <script src="js\ult.js"></script>
+    </body>
+</html>

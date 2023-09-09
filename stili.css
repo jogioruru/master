@@ -2,6 +2,9 @@
     font-size: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+a {
+	color:black;
+}
 
 header {
     background-color: #B5B1A8;

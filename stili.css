@@ -638,7 +638,7 @@ p > a {
     h5#Sottotitolo {
         font-size: 0.7em;
     }
-    #All, .mainItem {
+    #All, .mainItem, .mainItem section {
         flex-direction: column;
     }
 }

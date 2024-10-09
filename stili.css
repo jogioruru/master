@@ -24,6 +24,7 @@ header {
 nav {
     background-color: #B5B1A8;
     padding-bottom: 0.5%;
+    padding-left: 0.5rem;
 }
 .hideInnerMenuBar {
 	display: flex;

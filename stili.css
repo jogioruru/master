@@ -55,7 +55,7 @@ nav {
 
 .hamburgerMenu {
     cursor: pointer;
-    margin-left: auto; /*alternativa a align-self: flex-end*/
+    margin-left: 1rem; /*alternativa a align-self: flex-end* o margin-left:auto/
     /*align-self: flex-end;*/
     padding-top:2%;
 }
@@ -414,11 +414,11 @@ div.card > img {
 
 /*item*/
 .ImageItem {
-    width: 65%;
+    width: 45vw;
 }
 #contenitoreDati {
     min-height: 1px;
-    padding: 1.25rem;
+    padding: 3rem 10rem;
     float: right;
 }
 .datiOpera{
@@ -435,6 +435,7 @@ div.card > img {
 .datiOpera > span {
     text-align: center;
     font-weight: bold;
+    padding-bottom: 1rem;
 }
 .Correlate {
     display: flex;

@@ -417,10 +417,12 @@ div.card > img {
 .ImageItem {
     width: 45vw;
 }
-#contenitoreDati {
-    min-height: 1px;
-    padding: 3rem 10rem;
+.articoloDati{
     float: right;
+}	
+.contenitoreDati {
+    min-height: 1px;
+    padding: 3rem 10rem;    
 }
 .datiOpera{
     margin-top:0;
